@@ -1,0 +1,1 @@
+D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\UWPTodoApp.csproj;x86

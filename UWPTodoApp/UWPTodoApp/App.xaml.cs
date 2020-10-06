@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using UWPTodoApp.Services;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -30,6 +31,7 @@ namespace UWPTodoApp
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            DataModelService.Instance().Initialize();
         }
 
         /// <summary>
@@ -39,6 +41,11 @@ namespace UWPTodoApp
         /// <param name="e">起動の要求とプロセスの詳細を表示します。</param>
         protected override void OnLaunched(LaunchActivatedEventArgs e)
         {
+            if (System.Diagnostics.Debugger.IsAttached)
+            {
+                this.DebugSettings.EnableFrameRateCounter = true;
+            }
+
             Frame rootFrame = Window.Current.Content as Frame;
 
             // ウィンドウに既にコンテンツが表示されている場合は、アプリケーションの初期化を繰り返さずに、
@@ -95,6 +102,14 @@ namespace UWPTodoApp
             var deferral = e.SuspendingOperation.GetDeferral();
             //TODO: アプリケーションの状態を保存してバックグラウンドの動作があれば停止します
             deferral.Complete();
+        }
+
+        public static Frame navigateFrame
+        {
+            get
+            {
+                return Window.Current.Content as Frame;
+            }
         }
     }
 }
