@@ -19,8 +19,12 @@ namespace UWPTodoApp.Services
         public void Initialize()
         {
             UserModel = new UserModel();
+
+            TodoModel = new TodoModel();
         }
 
         public UserModel UserModel { get; private set; }
+
+        public TodoModel TodoModel { get; private set; }
     }
 }

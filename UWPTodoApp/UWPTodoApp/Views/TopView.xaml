@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="UWPTodoApp.Views.TopView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPTodoApp.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="1">
+            <StackPanel Orientation="Vertical">
+                <TextBlock Text="TopPage" FontSize="50" Margin="0,30,0,0" HorizontalAlignment="Center"/>
+
+                <TextBlock Text="{x:Bind ViewModel.WelcomeMessage, Mode=OneWay}" 
+                           FontSize="30" Margin="0,30,0,0" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+                <Button Style="{StaticResource AccentButtonStyle}" HorizontalAlignment="Center" Margin="0,40,0,0"
+                        Width="200" Height="60" Content="Todoへ" FontSize="30" 
+                        Click="{x:Bind ViewModel.GoTodoButton_Click}"/>
+
+                <Button Background="DarkGray" Width="200" Height="60" Margin="0,30,0,0" HorizontalAlignment="Center"
+                        Content="SignOut" FontSize="30" 
+                        Click="{x:Bind ViewModel.SignOutButton_Click}"/>
+
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

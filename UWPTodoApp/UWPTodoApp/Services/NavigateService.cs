@@ -20,9 +20,19 @@ namespace UWPTodoApp.Services
             App.navigateFrame.GoBack();
         }
 
-        //public void GoSignIn()
-        //{
-        //    this.navigate(typeof(UWPTodoApp.SignIn.SignInView), null);
-        //}
+        public void GoSignIn()
+        {
+            this.navigate(typeof(UWPTodoApp.Views.SigninPageView), null);
+        }
+
+        public void GoTopView()
+        {
+            this.navigate(typeof(UWPTodoApp.Views.TopView), null);
+        }
+
+        public void GoTodoView()
+        {
+            this.navigate(typeof(UWPTodoApp.Views.TodoView), null);
+        }
     }
 }

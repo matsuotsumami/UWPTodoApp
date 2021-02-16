@@ -19,7 +19,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>1F13FD59F039FC6EB9CA8367A76D2B095AC65103DBA30D395A42E85CBD4B6F04</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>3592A9A6FB55E3ECB5A1337CFC8A6BD1B25AA2164E4ECDEBC328BD456C8DA9C6</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>09a3edeb-44df-44a8-b71f-3c9d8365f378_1.0.0.0_x86__kjvm15d171nvm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>09a3edeb-44df-44a8-b71f-3c9d8365f378_kjvm15d171nvm!App</RegisteredUserModeAppID>
     <RegisteredPackageID>09a3edeb-44df-44a8-b71f-3c9d8365f378</RegisteredPackageID>
@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-06T15:21:07.495</Modified>
+      <Modified>2021-02-16T12:25:13.477</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\bin\x86\Debug\UWPTodoApp.exe">
       <PackagePath>entrypoint\UWPTodoApp.exe</PackagePath>
-      <Modified>2020-10-06T15:21:06.817</Modified>
+      <Modified>2021-02-16T12:25:08.004</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -198,41 +198,41 @@
       <PackagePath>System.Private.Uri.dll</PackagePath>
       <Modified>2019-02-15T04:51:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.appcontext\4.1.0\lib\netcore50\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
-      <Modified>2016-06-11T13:13:20.000</Modified>
+      <Modified>2016-06-11T14:13:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.buffers\4.0.0\lib\netstandard1.1\System.Buffers.dll">
       <PackagePath>System.Buffers.dll</PackagePath>
-      <Modified>2016-06-11T13:13:14.000</Modified>
+      <Modified>2016-06-11T14:13:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.collections.concurrent\4.0.12\lib\netcore50\System.Collections.Concurrent.dll">
       <PackagePath>System.Collections.Concurrent.dll</PackagePath>
-      <Modified>2016-06-11T13:13:16.000</Modified>
+      <Modified>2016-06-11T14:13:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.collections.immutable\1.2.0\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll">
       <PackagePath>System.Collections.Immutable.dll</PackagePath>
-      <Modified>2016-06-11T13:13:16.000</Modified>
+      <Modified>2016-06-11T14:13:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.collections.nongeneric\4.0.1\lib\netstandard1.3\System.Collections.NonGeneric.dll">
       <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
-      <Modified>2016-06-11T13:13:22.000</Modified>
+      <Modified>2016-06-11T14:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.collections.specialized\4.0.1\lib\netstandard1.3\System.Collections.Specialized.dll">
       <PackagePath>System.Collections.Specialized.dll</PackagePath>
-      <Modified>2016-06-11T13:13:22.000</Modified>
+      <Modified>2016-06-11T14:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.componentmodel\4.0.1\lib\netcore50\System.ComponentModel.dll">
       <PackagePath>System.ComponentModel.dll</PackagePath>
-      <Modified>2016-06-11T13:13:24.000</Modified>
+      <Modified>2016-06-11T14:13:24.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel.annotations\4.1.0\lib\netcore50\System.ComponentModel.Annotations.dll">
       <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
       <Modified>2016-06-11T13:13:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.componentmodel.eventbasedasync\4.0.11\lib\netcore50\System.ComponentModel.EventBasedAsync.dll">
       <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
-      <Modified>2016-06-11T13:13:20.000</Modified>
+      <Modified>2016-06-11T14:13:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.data.common\4.1.0\lib\netstandard1.2\System.Data.Common.dll">
       <PackagePath>System.Data.Common.dll</PackagePath>
@@ -242,9 +242,9 @@
       <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
       <Modified>2016-06-11T13:13:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.diagnostics.diagnosticsource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.diagnostics.diagnosticsource\4.0.0\lib\netstandard1.3\System.Diagnostics.DiagnosticSource.dll">
       <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
-      <Modified>2016-06-11T13:13:28.000</Modified>
+      <Modified>2016-06-11T14:13:28.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.diagnostics.stacktrace\4.0.2\lib\netstandard1.3\System.Diagnostics.StackTrace.dll">
       <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
@@ -254,17 +254,17 @@
       <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
       <Modified>2016-06-11T14:13:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.globalization.extensions\4.0.1\runtimes\win\lib\netstandard1.3\System.Globalization.Extensions.dll">
       <PackagePath>System.Globalization.Extensions.dll</PackagePath>
-      <Modified>2016-06-11T13:13:40.000</Modified>
+      <Modified>2016-06-11T14:13:40.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.compression\4.1.1\runtimes\win\lib\netstandard1.3\System.IO.Compression.dll">
       <PackagePath>System.IO.Compression.dll</PackagePath>
       <Modified>2016-07-01T05:48:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.io.compression.zipfile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.io.compression.zipfile\4.0.1\lib\netstandard1.3\System.IO.Compression.ZipFile.dll">
       <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
-      <Modified>2016-06-11T13:13:42.000</Modified>
+      <Modified>2016-06-11T14:13:42.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.io.filesystem.primitives\4.0.1\lib\netstandard1.3\System.IO.FileSystem.Primitives.dll">
       <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
@@ -294,9 +294,9 @@
       <PackagePath>System.Linq.Queryable.dll</PackagePath>
       <Modified>2016-06-11T13:13:58.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.net.http\4.1.0\runtimes\win\lib\netcore50\System.Net.Http.dll">
       <PackagePath>System.Net.Http.dll</PackagePath>
-      <Modified>2016-06-11T13:13:58.000</Modified>
+      <Modified>2016-06-11T14:13:58.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.net.http.rtc\4.0.1\runtimes\win\lib\netcore50\System.Net.Http.Rtc.dll">
       <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
@@ -366,9 +366,9 @@
       <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
       <Modified>2016-06-11T14:14:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.reflection.metadata\1.3.0\lib\portable-net45+win8\System.Reflection.Metadata.dll">
       <PackagePath>System.Reflection.Metadata.dll</PackagePath>
-      <Modified>2016-06-11T13:14:14.000</Modified>
+      <Modified>2016-06-11T14:14:14.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.reflection.typeextensions\4.1.0\lib\netcore50\System.Reflection.TypeExtensions.dll">
       <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
@@ -378,9 +378,9 @@
       <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
       <Modified>2016-06-11T13:14:26.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.runtime.numerics\4.0.1\lib\netcore50\System.Runtime.Numerics.dll">
       <PackagePath>System.Runtime.Numerics.dll</PackagePath>
-      <Modified>2016-06-11T13:14:30.000</Modified>
+      <Modified>2016-06-11T14:14:30.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.runtime.serialization.json\4.0.3\lib\netcore50\System.Runtime.Serialization.Json.dll">
       <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
@@ -406,25 +406,25 @@
       <PackagePath>System.Security.Claims.dll</PackagePath>
       <Modified>2016-06-11T13:14:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.security.cryptography.algorithms\4.2.0\runtimes\win\lib\netcore50\System.Security.Cryptography.Algorithms.dll">
       <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
-      <Modified>2016-06-11T13:14:42.000</Modified>
+      <Modified>2016-06-11T14:14:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.cryptography.cng\4.2.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.security.cryptography.cng\4.2.0\runtimes\win\lib\netstandard1.4\System.Security.Cryptography.Cng.dll">
       <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
-      <Modified>2016-06-11T13:14:42.000</Modified>
+      <Modified>2016-06-11T14:14:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.cryptography.encoding\4.0.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.security.cryptography.encoding\4.0.0\runtimes\win\lib\netstandard1.3\System.Security.Cryptography.Encoding.dll">
       <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
-      <Modified>2016-06-11T13:14:38.000</Modified>
+      <Modified>2016-06-11T14:14:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.cryptography.primitives\4.0.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.security.cryptography.primitives\4.0.0\lib\netstandard1.3\System.Security.Cryptography.Primitives.dll">
       <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
-      <Modified>2016-06-11T13:14:42.000</Modified>
+      <Modified>2016-06-11T14:14:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.cryptography.x509certificates\4.1.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.security.cryptography.x509certificates\4.1.0\runtimes\win\lib\netcore50\System.Security.Cryptography.X509Certificates.dll">
       <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
-      <Modified>2016-06-11T13:14:48.000</Modified>
+      <Modified>2016-06-11T14:14:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.security.principal\4.0.1\lib\netcore50\System.Security.Principal.dll">
       <PackagePath>System.Security.Principal.dll</PackagePath>
@@ -486,13 +486,13 @@
       <PackagePath>System.Xml.XDocument.dll</PackagePath>
       <Modified>2016-06-11T14:15:00.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.xml.xmldocument\4.0.1\lib\netstandard1.3\System.Xml.XmlDocument.dll">
       <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
-      <Modified>2016-06-11T13:15:02.000</Modified>
+      <Modified>2016-06-11T14:15:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
+    <AppxPackagedFile Include="C:\Users\松尾 直樹\.nuget\packages\system.xml.xmlserializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
-      <Modified>2016-06-11T13:15:04.000</Modified>
+      <Modified>2016-06-11T14:15:04.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
@@ -500,53 +500,61 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-06T14:26:54.903</Modified>
+      <Modified>2021-02-16T02:30:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2020-08-07T12:39:01.725</Modified>
+      <Modified>2021-02-16T02:30:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-07T12:39:01.730</Modified>
+      <Modified>2021-02-16T02:30:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-07T12:39:01.731</Modified>
+      <Modified>2021-02-16T02:30:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-07T12:39:01.732</Modified>
+      <Modified>2021-02-16T02:30:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-07T12:39:01.732</Modified>
+      <Modified>2021-02-16T02:30:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-07T12:39:01.734</Modified>
+      <Modified>2021-02-16T02:30:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-08-07T12:39:01.735</Modified>
+      <Modified>2021-02-16T02:30:48.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\bin\x86\Debug\UWPTodoApp.xr.xml">
       <PackagePath>UWPTodoApp.xr.xml</PackagePath>
-      <Modified>2020-10-06T15:21:06.697</Modified>
+      <Modified>2021-02-16T12:25:07.465</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-06T15:19:38.448</Modified>
+      <Modified>2021-02-16T12:25:07.520</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\bin\x86\Debug\MainPage.xbf">
-      <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-06T15:21:06.700</Modified>
+    <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\bin\x86\Debug\Views\SigninPageView.xbf">
+      <PackagePath>Views\SigninPageView.xbf</PackagePath>
+      <Modified>2021-02-16T12:25:07.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\bin\x86\Debug\Views\TodoView.xbf">
+      <PackagePath>Views\TodoView.xbf</PackagePath>
+      <Modified>2021-02-16T12:25:07.520</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\bin\x86\Debug\Views\TopView.xbf">
+      <PackagePath>Views\TopView.xbf</PackagePath>
+      <Modified>2021-02-16T12:25:07.520</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -554,11 +562,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-06T15:21:07.327</Modified>
+      <Modified>2021-02-16T12:25:10.025</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\work\UWPTodoApp\UWPTodoApp\UWPTodoApp\bin\x86\Debug\Core\UWPTodoApp.exe">
       <PackagePath>UWPTodoApp.exe</PackagePath>
-      <Modified>2020-10-06T15:21:07.493</Modified>
+      <Modified>2021-02-16T12:25:13.459</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
