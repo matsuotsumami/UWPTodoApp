@@ -54,44 +54,22 @@ namespace UWPTodoApp.ViewModels
 
         public void SignInButton_Click()
         {
-            UserList = model.UserList;
+            var user = model.login(UserId, UserPassword);
 
-            var findId = UserList.Find(x => x.UserId == UserId);
-            var findPass = UserList.Find(y => y.UserPassword == UserPassword);
-
-            if (findId == null || findPass == null)
+            if (user == null)
             {
                 Debug.WriteLine(false);
                 ErrorVisible = Visibility.Visible;
                 ErrorText = "Id、またはPasswordが間違っています";
+                return;
             }
-            else if (findId == findPass)
-            {
-                ErrorVisible = Visibility.Collapsed;
-                model.LoginUser = findId.UserId;
-                Debug.WriteLine(true);
-                NavigateService.GoTopView();
-            }
-            else
-            {
-                Debug.WriteLine(false);
-                ErrorVisible = Visibility.Visible;
-                ErrorText = "Id、またはPasswordが間違っています";
-            }
+            ErrorVisible = Visibility.Collapsed;
+            // model.LoginUser = findId.UserId;
+            // ID以外の情報も使うかもしれないので。Userインスタンスにしてしまおう！
+            model.LoginUser = user;
+            Debug.WriteLine(true);
+            NavigateService.GoTopView();
 
-            //var list = new List<string>();
-            //list.AddRange(model.UserId);
-
-            //if (list.Contains(UserId) == true)
-            //{
-            //    Debug.WriteLine(true);
-
-            //    NavigateService.GoTopView();
-            //}
-            //else
-            //{
-            //    Debug.WriteLine(false);
-            //}
 
         }
     }

@@ -10,35 +10,47 @@ namespace UWPTodoApp.Models
     {
         public UserModel()
         {
-            UserList = new List<User>
-            {
-                new User { UserId = User1Id, UserPassword = User1Password },
-                new User { UserId = User2Id, UserPassword = User2Password },
-                new User { UserId = User3Id, UserPassword = User3Password }
-            };
-
 
         }
 
         public List<User> UserList { get; set; }
 
-        public string[] UserId = { User1Id, User2Id, User3Id };
+        public string[] dummyUserId = {
+            "test001",
+            "test002",
+            "test003"
+        };
+        public string[] dummyUserPassword = {
+            "pass001",
+            "pass002",
+            "pass003"
+        };
 
-        private const string User1Id = "test001";
+        public User LoginUser { get; set; }
 
-        private const string User2Id = "test002";
+        public User login(String userId, String userPassword)
+        {
+            this.setDummyUserList();
+            var user = UserList.Find(x => x.UserId == userId);
 
-        private const string User3Id = "test003";
+            // 一致したユーザーの場合にユーザー情報を返す
+            if (user != null && user.UserPassword == userPassword)
+            {
+                return user;
+            }
 
-        public string[] UserPassword = { User1Password, User2Password, User3Password };
+            // 一致していなかった場合はnullを返す（ログイン失敗）
+            return null;
+        }
 
-        private const string User1Password = "pass001";
-
-        private const string User2Password = "pass002";
-
-        private const string User3Password = "pass003";
-
-        public string LoginUser { get; set; }
+        private void setDummyUserList()
+        {
+            UserList = new List<User>();
+            for (int i = 0; i < dummyUserId.Length; i++)
+            {
+                UserList.Add(new User { UserId = dummyUserId[i], UserPassword = dummyUserPassword[i] });
+            }
+        }
 
     }
 

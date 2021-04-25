@@ -27,6 +27,7 @@ namespace UWPTodoApp.Views
         public TodoView()
         {
             this.InitializeComponent();
+            ViewModel.Initialize();
         }
     }
 }

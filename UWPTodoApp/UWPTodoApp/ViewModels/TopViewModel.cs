@@ -15,16 +15,16 @@ namespace UWPTodoApp.ViewModels
 
         public void Initialize()
         {
-            LoginUser = userModel.LoginUser;
+            LoginUserId = userModel.LoginUser.UserId;
 
-            WelcomeMessage = "ようこそ " + LoginUser + " さん！";
+            WelcomeMessage = "ようこそ " + LoginUserId + " さん！";
         }
 
-        private string _loginUser;
-        public string LoginUser
+        private string _loginUserId;
+        public string LoginUserId
         {
-            get { return _loginUser; }
-            set { Set(ref _loginUser, value); }
+            get { return _loginUserId; }
+            set { Set(ref _loginUserId, value); }
         }
 
         private string _welcomeMessage;
