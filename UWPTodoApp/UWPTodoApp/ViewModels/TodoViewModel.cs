@@ -27,6 +27,16 @@ namespace UWPTodoApp.ViewModels
 
         }
 
+        public void GoSigninPage()
+        {
+            NavigateService.GoSignIn();
+        }
+
+        public void GoTopPage()
+        {
+            NavigateService.GoTopView();
+        }
+
         private string _todoText;
         public string TodoText
         {
@@ -112,8 +122,8 @@ namespace UWPTodoApp.ViewModels
         public void TodoItemInList_Delete(object sender, RoutedEventArgs e)
         {
             var button = (Button)sender;
-            var scrollViewer = (Grid)button.Parent;
-            var todoTextItem = (TodoTextItem)scrollViewer.Parent;
+            var grid = (Grid)button.Parent;
+            var todoTextItem = (TodoTextItem)grid.Parent;
 
             TodoItemList.Remove(todoTextItem);
         }

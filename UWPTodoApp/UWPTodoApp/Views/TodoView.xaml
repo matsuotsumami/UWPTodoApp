@@ -16,6 +16,40 @@
             <ColumnDefinition Width="1*" />
         </Grid.ColumnDefinitions>
 
+        <Grid Grid.Column="0">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top" HorizontalAlignment="Left" >
+                <ToggleButton x:Name="HamburgerButton" VerticalAlignment="Top" 
+                              Foreground="{ThemeResource AppBarBackgroundThemeBrush}"
+                              Background="DarkRed" Width="48" >
+                    <ToggleButton.Content>
+                        <FontIcon x:Name="Hamburger"
+              FontFamily="Segoe MDL2 Assets" Glyph="&#xE700;" />
+                    </ToggleButton.Content>
+                </ToggleButton>
+            </StackPanel>
+        </Grid>
+
+        <SplitView Grid.Column="0" DisplayMode="Overlay"  Canvas.ZIndex="1"
+                   IsPaneOpen="{Binding ElementName=HamburgerButton, Path=IsChecked, Mode=TwoWay}">
+            <SplitView.Pane>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="50"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    
+                    <Button Content="SignOut" Background="Tan" Grid.Row="0" Width="100" 
+                            Click="{x:Bind ViewModel.GoSigninPage}"/>
+                    <Button Content="Top" Background="PaleGreen" Grid.Row="1" Width="100"
+                            Click="{x:Bind ViewModel.GoTopPage}"/>
+                </Grid>
+
+
+            </SplitView.Pane>
+        </SplitView>
+
         <Grid Grid.Column="1">
             <StackPanel Orientation="Vertical">
                 <TextBlock Text="Todo" FontSize="50" Margin="0,30,0,0" HorizontalAlignment="Center"/>

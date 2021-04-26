@@ -64,13 +64,10 @@ namespace UWPTodoApp.ViewModels
                 return;
             }
             ErrorVisible = Visibility.Collapsed;
-            // model.LoginUser = findId.UserId;
-            // ID以外の情報も使うかもしれないので。Userインスタンスにしてしまおう！
+            
             model.LoginUser = user;
             Debug.WriteLine(true);
             NavigateService.GoTopView();
-
-
         }
     }
 }

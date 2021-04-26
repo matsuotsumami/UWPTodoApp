@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
+using Windows.UI.Xaml.Media.Animation;
 
 namespace UWPTodoApp.Services
 {
@@ -12,7 +13,7 @@ namespace UWPTodoApp.Services
     {        
         private void navigate(System.Type page, Object param)
         {
-            App.navigateFrame.Navigate(page, param);
+            App.navigateFrame.Navigate(page, param, new DrillInNavigationTransitionInfo());
         }
 
         public void GoBack()
